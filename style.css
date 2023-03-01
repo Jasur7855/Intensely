@@ -96,7 +96,6 @@
 /* Carusel Start */
 
 .carousel-inner{
-    height: 550px;
     width: 100%;
     z-index: 2;
 }
