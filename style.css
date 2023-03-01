@@ -385,6 +385,7 @@
     font-size: calc(0.93vw + 11.4px);
     width: 60%;
 }
+
 .subscribe_main input{
     height: 55px;
     outline: none;
@@ -588,8 +589,9 @@
         margin-bottom: 70px;
     }
     .news_cards{
-        display: grid;
-       grid-template-columns:1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -611,7 +613,8 @@
         flex-direction: column; */
     }
     .news_card{
-        width: 80%;
+        width: 90%;
+        margin: 0 auto;
         margin-bottom: 40px;
     }
     .logo{
