@@ -11,6 +11,9 @@
 .header-top p{
     font-size: calc(0.5vw + 6px);
 }
+.header_par{
+    font-size: calc(0.25vw + 11px);
+}
 .header-top button{
     border: none;
     background-color: transparent;
@@ -109,7 +112,7 @@
     width: calc(29vw + 215px);
 }
 .header_text{
-    font-size: 35px;
+    font-size:calc(0.43vw + 26px);
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
@@ -329,9 +332,16 @@
 .news{
     background-color:rgb(245, 245, 245) ;
 }
+.news_cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px ;
+
+}
+
 .news_card{
     background-color: white !important;
-    width: 31.5%;    
+    flex-basis: calc(5vw + 305px);
 }
 .news_card img{
     height: 260px;
@@ -375,6 +385,7 @@
     font-size: calc(0.93vw + 11.4px);
     width: 60%;
 }
+.subscribe_main{border: 2px solid white;}
 .subscribe_main input{
     height: 55px;
     outline: none;
@@ -393,14 +404,14 @@
     border: 2px solid #0DCAF0;
     color: white;
     font-weight: 700;
-    font-size: 18px;
+    font-size: calc(0.37vw + 10.6px);
 }
 .subscribe_footer{
     height: 80px;
     width: 100%;
 }
 .subscribe_footer h4{
-    font-size: 15px;
+    font-size: calc(0.25vw + 11px);
 
 }
 .subscribe_footer_icons{    
@@ -409,7 +420,7 @@
     justify-content: space-between;
 }
 .subscribe_footer_icons i {
-    font-size: 15px;
+    font-size: calc(0.25vw + 11px);
     transition: .5s;
 }
 .subscribe_footer span:hover{
@@ -543,6 +554,27 @@
 .radio{
     display: none;
 }
+
+
+
+
+
+@media (max-width:1400px) {
+    .news_cards{
+        display: grid;
+       grid-template-columns:1fr 1fr
+    }
+}   
+
+
+
+
+
+
+
+
+
+
 @media (max-width:992px) {
     .price_cards{
         display: grid;
@@ -555,6 +587,10 @@
     }
     .team-card{
         margin-bottom: 70px;
+    }
+    .news_cards{
+        display: grid;
+       grid-template-columns:1fr;
     }
 }
 
@@ -572,8 +608,8 @@
         align-items: center;
     }
     .news_cards{
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
     }
     .news_card{
         width: 80%;
