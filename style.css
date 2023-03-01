@@ -9,7 +9,7 @@
 }
 /* Header Start */
 .header-top p{
-    font-size: 14px;
+    font-size: calc(0.5vw + 6px);
 }
 .header-top button{
     border: none;
