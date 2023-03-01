@@ -577,4 +577,8 @@
     }
     .logo{
         grid-template-columns: 1fr 1fr ;
+    }
+    .header-top p{
+        font-size: 8px;
+    }
 }
