@@ -385,7 +385,6 @@
     font-size: calc(0.93vw + 11.4px);
     width: 60%;
 }
-.subscribe_main{border: 2px solid white;}
 .subscribe_main input{
     height: 55px;
     outline: none;
