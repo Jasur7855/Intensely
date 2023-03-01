@@ -582,4 +582,6 @@
     .header-top p{
         font-size: 8px;
     }
+    .feature{
+        padding-bottom: 0;
 }
