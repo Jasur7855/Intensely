@@ -33,6 +33,7 @@
     border-bottom: 1px solid #E5E5E5;
     border-top: 1px solid #E5E5E5;
 }
+
 .login-form{
     width: 30%;
    background-color: white;
@@ -626,4 +627,8 @@
     .feature{
         padding-bottom: 0;
     }
+      .feature-card{
+        margin-left: 2%;
+    }
+}
 }
