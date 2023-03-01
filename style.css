@@ -106,7 +106,7 @@
 /* Carusel End */
 /* Feature Start */
 .header_box{
-    width: 60%;
+    width: calc(29vw + 215px);
 }
 .header_text{
     font-size: 35px;
